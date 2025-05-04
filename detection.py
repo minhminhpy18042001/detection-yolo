@@ -35,7 +35,7 @@ from ultralytics import YOLO
 # record = args.record
 
 #
-model_path = "model/yoloCoco11n.onnx"
+model_path = "model/best.pt"
 img_source = "usb0"
 min_thresh = 0.5
 user_res = "1024x768"
